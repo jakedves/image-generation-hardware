@@ -1,0 +1,18 @@
+numpy
+torch
+torchvision
+brevitas
+# last working commit of brevitas/dev branch that includes QuantConv3D
+# brevitas @ git+https://github.com/xilinx/brevtias@f0f8c56
+pillow
+tqdm
+matplotlib
+onnx
+onnxoptimizer
+qonnx
+ffmpeg-python
+ffmpeg
+opencv-python
+lpips
+pandas
+distinctipy

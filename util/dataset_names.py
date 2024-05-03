@@ -1,0 +1,6 @@
+BSD100 = "BSD100"
+Set5 = "Set5"
+Set14 = "Set14"
+Urban100 = "Urban100"
+DIV2K_Training = "DIV2K/training"
+DIV2K_Validation = "DIV2K/validation"
