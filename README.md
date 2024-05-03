@@ -16,6 +16,6 @@ The main files can be ran on any machine with the following command, although ma
 
 The compilation file requires the setup of a linux virtual machine, docker, and installation of the Vitis development environment. Futher details can be found in the [FINN documentation](https://finn.readthedocs.io/en/latest/getting_started.html). For generating hardware, the command line was used, with the `dataflow_build_config.json` file.
 
-**TL;DR: **
+**TL;DR:**
 
 The main files should run fine, good luck running `compile.py`.
