@@ -1,0 +1,25 @@
+{
+  "output_dir": "my_build",
+  "target_fps": 240,
+  "mvau_wwidth_max": 1000,
+  "synth_clk_period_ns": 10.0,
+  "board": "Pynq-Z2",
+  "shell_flow_type": "vivado_zynq",
+  "standalone_thresholds": false,
+  "steps": [
+    "step_qonnx_to_finn",
+    "step_tidy_up",
+    "step_streamline",
+    "step_convert_to_hw",
+    "step_create_dataflow_partition",
+    "step_specialize_layers",
+    "step_target_fps_parallelization",
+    "step_apply_folding_config",
+    "step_minimize_bit_width",
+    "step_generate_estimate_reports"
+  ],
+  "verify_save_rtl_waveforms": false,
+  "generate_outputs": [
+    "estimate_reports"
+  ]
+}
